@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap");
+
+:root {
+  --Dark-Gray: hsl(0, 0%, 63%);
+  --Black: hsl(0, 0%, 0%);
+  --White: hsl(0, 0%, 100%);
+  --Very-Dark-Gray: hsl(0, 0%, 27%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  /* overflow: hidden; */
+}
+
+.top {
+  flex: 2;
+  max-height: 500px;
+  display: flex;
+  position: relative;
+}
+
+.homepage {
+  flex: 2;
+}
+
+.bg-cover {
+  width: 100%;
+}
+
+.bg-cover img {
+  width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.desc-cover {
+  position: relative;
+  flex: 1;
+  padding: 70px 60px;
+}
+
+.description {
+  display: none;
+}
+
+.description h1 {
+  font-size: 35px;
+  line-height: 30px;
+}
+
+.description p {
+  font-size: 12px;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.description.active {
+  display: block;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.button a {
+  letter-spacing: 7px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.directbtn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  width: 108px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.directbtn button {
+  flex: 1;
+  padding: 9px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 26px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.button img {
+  margin-left: 5px;
+}
+
+.bottom {
+  display: flex;
+  max-height: 230px;
+  flex: 1;
+  /* background: #000; */
+  overflow: hidden;
+}
+
+.left {
+  flex: 1;
+  background: #000;
+  max-width: 500px;
+}
+
+.left img {
+  width: 100%;
+}
+
+.center {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.center h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.center p {
+  font-size: 12px;
+  line-height: 20px;
+  max-width: 500px;
+}
+
+.right {
+  flex: 1;
+  background: #000;
+}
+
+.right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
