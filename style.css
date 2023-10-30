@@ -32,10 +32,12 @@
 
 .bg-cover {
   width: 100%;
+  height: 100%;
 }
 
 .bg-cover img {
   width: 100%;
+  height: 100%;
 }
 
 .navbar {
