@@ -30,8 +30,14 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div class="bg-cover">
-            <img src="./images/desktop-image-hero-1.jpg" alt="" />
+          <div class="gallery">
+            <div class="bg-cover">
+              <img src="./images/desktop-image-hero-1.jpg" alt="" />
+
+              <img src="./images/desktop-image-hero-2.jpg" alt="" />
+
+              <img src="./images/desktop-image-hero-3.jpg" alt="" />
+            </div>
           </div>
         </div>
 
@@ -116,10 +122,14 @@
     </div>
 
     <script>
-      var pagelayout = document.getElementById();
-      var desctext = document.getElementById();
+      var desctext = document.querySelectorAll("description");
       var nextbtn = document.getElementById("next");
       var backbtn = document.getElementById("back");
+      var scrollconatiner = document.querySelector(".gallery");
+
+      nextbtn.addEventListener("click", () => {
+        scrollconatiner.scrollLeft += 730;
+      });
     </script>
   </body>
 </html>
