@@ -26,3 +26,13 @@ The designs were created to the following widths:
 
 - Family: [League Spartan](https://fonts.google.com/specimen/League+Spartan)
 - Weights: 500, 600, 700
+
+git remote add origin https://github.com/winsofttutorials/room-homepage-master.git
+
+echo "# room-homepage-master" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/winsofttutorials/room-homepage-master.git
+git push -u origin main
